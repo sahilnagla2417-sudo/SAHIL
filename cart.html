@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart | Zandu Engineers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="loader" class="loader"><div class="loader-dot"></div></div><div id="site-header" class="topbar-holder"></div>
+  <section class="banner"><div class="container"><h1>Shopping Cart</h1><p>Review your products and proceed to checkout.</p></div></section>
+  <section class="section"><div class="container cart-grid"><div class="card"><div class="table-wrap"><table><thead><tr><th>Image</th><th>Product</th><th>Price</th><th>Quantity</th><th>Remove</th></tr></thead><tbody id="cartBody"></tbody></table></div><div style="margin-top:14px;"><a class="btn btn-outline" href="shop.html">Continue Shopping</a></div></div><div class="totals"><h3>Cart Totals</h3><p>Subtotal: <strong id="subtotal">$0.00</strong></p><p>Shipping: <strong>$25.00</strong></p><p>Total: <strong id="total">$0.00</strong></p><button id="checkoutBtn" class="btn btn-primary" style="width:100%;">Proceed to Checkout</button></div></div></section>
+  <div id="site-footer"></div><button id="scrollTop" class="scroll-top">↑</button>
+  <script src="https://unpkg.com/lucide@latest"></script><script src="script.js"></script>
+</body>
+</html>

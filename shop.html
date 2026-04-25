@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop | Zandu Engineers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="shop">
+  <div id="loader" class="loader"><div class="loader-dot"></div></div><div id="site-header" class="topbar-holder"></div>
+  <section class="banner"><div class="container"><h1>Shop Products</h1><p>Premium farming equipment and precision machines.</p></div></section>
+  <section class="section">
+    <div class="container">
+      <div class="toolbar">
+        <input id="shopSearch" type="search" placeholder="Search products..." style="padding:10px 12px;border:1px solid var(--line);border-radius:999px;min-width:260px;">
+        <div class="chips">
+          <button class="chip active" data-cat="All">All</button>
+          <button class="chip" data-cat="Seed Processing Machines">Seed Processing Machines</button>
+          <button class="chip" data-cat="Farming Equipment">Farming Equipment</button>
+          <button class="chip" data-cat="Agricultural Tools">Agricultural Tools</button>
+          <button class="chip" data-cat="Water Pumps">Water Pumps</button>
+          <button class="chip" data-cat="Sprayers">Sprayers</button>
+          <button class="chip" data-cat="Fertilizer Machines">Fertilizer Machines</button>
+          <button class="chip" data-cat="Harvesting Machines">Harvesting Machines</button>
+          <button class="chip" data-cat="Tractor Attachments">Tractor Attachments</button>
+        </div>
+      </div>
+      <div id="shopGrid" class="product-grid"></div>
+    </div>
+  </section>
+  <div id="site-footer"></div><button id="scrollTop" class="scroll-top">↑</button>
+  <div class="modal" id="quickModal"><div class="modal-card"><button class="btn btn-outline" data-close-modal>Close</button><div id="quickBody" style="margin-top:10px;"></div></div></div>
+  <script src="https://unpkg.com/lucide@latest"></script><script src="script.js"></script>
+</body>
+</html>
+
