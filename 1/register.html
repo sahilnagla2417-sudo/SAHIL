@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register | Zandu Engineers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="loader" class="loader"><div class="loader-dot"></div></div>
+  <section class="split-auth">
+    <aside class="auth-side"><h1>Create Account</h1><p>Join Zandu Engineers to track purchases and save products to wishlist.</p></aside>
+    <main class="auth-main">
+      <form id="registerForm" class="auth-card">
+        <h2>Register</h2>
+        <div class="floating"><input type="text" placeholder=" " required><label>Full Name</label></div>
+        <div class="floating"><input type="email" placeholder=" " required><label>Email Address</label></div>
+        <div class="floating"><input type="tel" placeholder=" " required><label>Phone Number</label></div>
+        <div class="floating"><input type="password" placeholder=" " required><label>Password</label></div>
+        <div class="floating"><input type="password" placeholder=" " required><label>Confirm Password</label></div>
+        <label><input type="checkbox" required> I agree to terms and privacy policy.</label>
+        <button type="submit" class="btn btn-primary" style="width:100%;margin-top:12px;">Create Account</button>
+        <p style="text-align:center;">Already have account? <a id="toLogin" href="login.html" style="color:var(--primary);">Login</a></p>
+      </form>
+    </main>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>

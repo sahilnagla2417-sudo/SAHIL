@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details | Zandu Engineers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="loader" class="loader"><div class="loader-dot"></div></div><div id="site-header" class="topbar-holder"></div>
+  <section class="banner"><div class="container"><h1>Product Details</h1><p>High-quality farming machinery with premium build standards.</p></div></section>
+  <section class="section"><div class="container" id="productDetail"></div></section>
+  <section class="section gray"><div class="container"><div class="tabs"><button class="tab active" data-tab="tab-desc">Description</button><button class="tab" data-tab="tab-spec">Specifications</button><button class="tab" data-tab="tab-review">Reviews</button></div><div id="tab-desc" class="tab-panel active card"><p>This equipment is engineered for high-throughput agricultural operation with stable performance and lower maintenance cycles.</p></div><div id="tab-spec" class="tab-panel card"><ul><li>Power Efficiency: High</li><li>Build Material: Industrial-grade alloy steel</li><li>Warranty: 24 months</li><li>Support: 24/7 technical assistance</li></ul></div><div id="tab-review" class="tab-panel card"><p>“Exceptional output and smooth usage in large-scale farming.”</p><p>“Very reliable even during demanding seasonal workloads.”</p></div></div></section>
+  <section class="section"><div class="container"><h2 class="section-title">Related Products</h2><div class="slider" data-slider><div class="slides"><div class="slide"><div id="relatedProducts" class="product-grid"></div></div><div class="slide"><div class="product-grid" data-collection="featured"></div></div></div></div></div></section>
+  <div id="site-footer"></div><button id="scrollTop" class="scroll-top">↑</button>
+  <div class="modal" id="quickModal"><div class="modal-card"><button class="btn btn-outline" data-close-modal>Close</button><div id="quickBody" style="margin-top:10px;"></div></div></div>
+  <script src="https://unpkg.com/lucide@latest"></script><script src="script.js"></script>
+</body>
+</html>
+

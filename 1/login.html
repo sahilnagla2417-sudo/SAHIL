@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Zandu Engineers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="loader" class="loader"><div class="loader-dot"></div></div>
+  <section class="split-auth">
+    <aside class="auth-side"><h1>Welcome Back</h1><p>Sign in to manage orders, wishlist, and your farming product preferences.</p></aside>
+    <main class="auth-main">
+      <form id="loginForm" class="auth-card">
+        <h2>Login</h2>
+        <div class="floating"><input type="email" placeholder=" " required><label>Email Address</label></div>
+        <div class="floating"><input type="password" placeholder=" " required><label>Password</label></div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;"><label><input type="checkbox"> Remember me</label><a href="#">Forgot password?</a></div>
+        <button type="submit" class="btn btn-primary" style="width:100%;">Sign In</button>
+        <p style="text-align:center;color:var(--muted);">Or continue with</p>
+        <div class="social-row"><button type="button" class="btn btn-outline">Google</button><button type="button" class="btn btn-outline">LinkedIn</button></div>
+        <p style="text-align:center;">New user? <a id="toRegister" href="register.html" style="color:var(--primary);">Create account</a></p>
+      </form>
+    </main>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
